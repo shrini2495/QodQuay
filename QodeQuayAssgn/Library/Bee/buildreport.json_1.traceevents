@@ -1,0 +1,530 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681723140298672, "dur": 6631214, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723140299110, "dur": 3255, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723140302368, "dur": 64026, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723140366396, "dur": 6349266, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723146715664, "dur": 212615, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723146928281, "dur": 1604, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723146930595, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681723145143804, "dur": 1551790, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723145145368, "dur": 71974, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723146668968, "dur": 7223, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723146676196, "dur": 19376, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723146677393, "dur": 16631, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723146702769, "dur": 2070, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681723146701522, "dur": 3351, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723146934699, "dur": 450, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681723146787271, "dur":1426, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146788705, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681723146788776, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681723146788802, "dur":462, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681723146789290, "dur":779, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146790069, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908381, "dur":368, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908749, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908773, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908776, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908787, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908790, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908816, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908818, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908832, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908834, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908841, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908843, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908851, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908853, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908861, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908863, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908871, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908873, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908880, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908882, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908890, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908892, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908900, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908902, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908911, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908930, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146908935, "dur":1925, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681723146789716, "dur":362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146790081, "dur":8456, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146798555, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681723146798564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146801057, "dur":712, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681723146801775, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681723146802140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146802649, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681723146806662, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681723146807350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146808112, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681723146810498, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146811255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146811737, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146814444, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146815265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146815274, "dur":9585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146824960, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146825562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146825570, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146828835, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146829691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146829700, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146832074, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146832988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146832998, "dur":10355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146843483, "dur":1818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146845306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146845314, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146848297, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146849023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146849032, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146851515, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146852409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681723146852418, "dur":18287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681723146870872, "dur":37504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146789767, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146790091, "dur":8477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146798568, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681723146799016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146803916, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681723146807546, "dur":4341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146811892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146812231, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146815520, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146817501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146817513, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146819177, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146820345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146820354, "dur":11138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146831589, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146832426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146832436, "dur":7149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146839683, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146840227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146840574, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146844061, "dur":1673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146845739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146845748, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146849996, "dur":1441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146851443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146851451, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146853489, "dur":2985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146856479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146856490, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146863062, "dur":1437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146864521, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146864556, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681723146866955, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1681723146867330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146867339, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1681723146868788, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681723146868938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681723146868949, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681723146870688, "dur":37701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681723146789794, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681723146790098, "dur":8464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681723146798566, "dur":1107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681723146799679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681723146803012, "dur":5168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681723146808280, "dur":83256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681723146891543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681723146891554, "dur":16720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681723146908342, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1681723146908345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146789877, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146790121, "dur":8533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146798654, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681723146799225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146802899, "dur":4018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681723146807035, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681723146807800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146808121, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681723146810312, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1681723146810527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146810879, "dur":6352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1681723146817380, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146818018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146818028, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146819601, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146820502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146820511, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146822439, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146823139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146823148, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146824885, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146825526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146825535, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146828268, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146829033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146829047, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146831036, "dur":811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146831853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146831864, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146834409, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146835075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146835085, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146837190, "dur":2139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146839335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146839345, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146841340, "dur":861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146842206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146842215, "dur":3932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146846253, "dur":854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146847113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146847122, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146848769, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146849627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146849636, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146852813, "dur":9433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146862252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681723146862263, "dur":7981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681723146870353, "dur":38025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146789751, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146790085, "dur":8492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146798577, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681723146799089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146804089, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681723146806976, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681723146807235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146808125, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681723146810485, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146811277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146811690, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146814433, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146815129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146815138, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146818467, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146819386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146819395, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146822872, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146823629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146823638, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146825859, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146826501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146826510, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146829988, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146830978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146830987, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146833161, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146833804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146833813, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146835474, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146836019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146836028, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146839698, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146840321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146840330, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146842347, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146843076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146843085, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146845063, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146845583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146845592, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146848921, "dur":8321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146857248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146857287, "dur":8178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681723146865559, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1681723146865658, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146866027, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1681723146867495, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681723146867711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146867721, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681723146869180, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681723146869291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681723146869298, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681723146871276, "dur":37121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146789836, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146790109, "dur":8451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146798561, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681723146799075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146802999, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681723146807105, "dur":1603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1681723146808712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146808862, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1681723146811817, "dur":2396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146814218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146814230, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146818245, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146819041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146819051, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146820929, "dur":3922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146824856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146824866, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146827877, "dur":913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146828796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146828815, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146831045, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146831863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146831873, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146835944, "dur":4668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146840617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146840627, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146843866, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146844611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146844621, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146846990, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146847477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146847486, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146849343, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146849980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146849989, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146852023, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146852842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146852852, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146854693, "dur":4347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146859045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146859055, "dur":9240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681723146868587, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681723146868945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681723146868955, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681723146870962, "dur":37436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146789825, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146790104, "dur":8462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146798567, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681723146798900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146803054, "dur":5855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681723146809204, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681723146810248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146810255, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681723146813767, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146814890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146814899, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146818548, "dur":1003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146819556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146819565, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146823205, "dur":1753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146824963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146825167, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146828606, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146829343, "dur":114, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146829468, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146832173, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146832792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146832802, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146837741, "dur":2827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146840573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146840583, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146844597, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146845978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146845988, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146848602, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146849085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146849094, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146852086, "dur":1864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146853957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146853967, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146859779, "dur":14730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146874515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681723146874525, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681723146878692, "dur":29691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146789867, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146790114, "dur":8444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146798564, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146799606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146802988, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146807153, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146807476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146807485, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146811008, "dur":1497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146812509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146812908, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146818612, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146819778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146819787, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146822596, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146823409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146823419, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146826041, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146826845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146826854, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146829674, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146830579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146830589, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146833957, "dur":954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146834917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146834930, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146837131, "dur":2912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146840048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146840058, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146844733, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146845203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146845213, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146847823, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146848601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146848610, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146850743, "dur":1280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146852028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146852038, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146854676, "dur":2818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146857499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146857508, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146862944, "dur":1861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146864811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146864822, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681723146869273, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146869586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681723146869595, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1681723146871390, "dur":37013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146789909, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146790126, "dur":8455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146798582, "dur":1717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681723146800305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146802699, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681723146808685, "dur":7130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1681723146815819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146815826, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1681723146818106, "dur":1886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146820019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146820103, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146824592, "dur":1504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146826102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146826111, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146829166, "dur":1183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146830444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146830455, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146834174, "dur":1144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146835324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146835335, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146837559, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146838153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146838204, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146839717, "dur":1138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146840860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146840869, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146843303, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146844422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146844465, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146847791, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146848273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146848283, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146850157, "dur":2938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146853101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146853110, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146856234, "dur":4735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146860976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681723146860986, "dur":9986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681723146871464, "dur":36922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146789934, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146790131, "dur":8439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146798570, "dur":1527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1681723146800105, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146802341, "dur":4953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1681723146807417, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1681723146807640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146807649, "dur":6283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1681723146814031, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146814864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146814874, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146817906, "dur":1296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146819208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146819217, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146821196, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146822296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146822309, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146824020, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146824717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146824727, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146826727, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146827417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146827427, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146829575, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146830440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146830452, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146832419, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146832996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146833003, "dur":8211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146841360, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146842004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146842014, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146844953, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146845539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146845549, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146848116, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146848590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146848614, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146850794, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146851899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146851908, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146854477, "dur":3554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146858036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146858044, "dur":7153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681723146865331, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1681723146865595, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146866783, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1681723146868023, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1681723146868122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681723146868129, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1681723146869539, "dur":38842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146789974, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146790137, "dur":8415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146798564, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1681723146799624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146802624, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1681723146806636, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681723146806882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146808370, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681723146812611, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146813374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146813413, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146817761, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146819709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146819719, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146823410, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146825166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146825176, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146828557, "dur":913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146829476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146829486, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146831588, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146832272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146832304, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146834952, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146835863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146835871, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146838754, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146839564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146839574, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146841781, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146842299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146842309, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146845708, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146846302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146846311, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146849496, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146850572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146850580, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146852934, "dur":6242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146859180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146859189, "dur":6838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681723146866102, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681723146866185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681723146866195, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681723146871226, "dur":37164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146790013, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146790142, "dur":8413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146798557, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1681723146798899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146804169, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1681723146808218, "dur":23959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146832276, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146832440, "dur":12173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146846204, "dur":2874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146849082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146849091, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146851448, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146852459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146852469, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146857327, "dur":2417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146859749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681723146859758, "dur":9495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Shrini/Downloads/QuodeQuayAssgn/QodeQuayAssgn_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681723146869386, "dur":38999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681723146912950, "dur":2757, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681723146935298, "dur": 1002, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681723146930578, "dur": 5757, "ph": "X", "name": "Write chrome-trace events", "args": {} },
